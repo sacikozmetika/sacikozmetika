@@ -14,7 +14,7 @@
   margin: 0px;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
 }
 
 .saci-about.row {
@@ -113,7 +113,11 @@ h2.text-dark.mb-5 {
   color: #FB0E0E !important;
   text-shadow: 4px 4px 0 #FFE713, 4px -4px 0 #1712F6;
   font-weight: bold;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
+}
+
+.about-thumbnail.bg-img{
+  margin: auto;
 }
 
 h5#homeH5 {
@@ -123,7 +127,6 @@ h5#homeH5 {
 
 h5#contactH5 {
   color: #FFE713;
-  font-weight: bold;
   font-size: 22px;
   margin-bottom: 1.67em;
 }
@@ -137,10 +140,13 @@ h5#contactH5 {
   .homeTitle {
     margin-left: 70px;
   }
+  .homePic {
+    width: 13em;
+  }
 }
 
 a#btn1, a#btn2, a#btn3 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 16px;
 }
 
@@ -160,6 +166,7 @@ a#btn1, a#btn2, a#btn3 {
 
 .itemX h2 {
   color: #1712F6;
+  text-shadow: 3px 3px 0 #FFE713, 3px -3px 0 #FB0E0E;  
   font-weight: bold;
   font-size: 2.5rem;
 }
@@ -178,6 +185,7 @@ a#btn1, a#btn2, a#btn3 {
   .itemX { 
     align-self: center; 
     text-align: center; 
+    margin-top: 20px;
   }
   .item2 { 
     align-self: center; 
@@ -220,6 +228,7 @@ a#btn1, a#btn2, a#btn3 {
   }
   .servicePic {
     padding-top: 20px;
+    width: 13em;
   }
   .item4 { 
     align-self: center; 
@@ -309,6 +318,7 @@ a#btn1, a#btn2, a#btn3 {
   }
   .aboutPic {
     padding-top: 20px;
+    width: 13em;
   }
   .item6 { 
     align-self: center; 
@@ -401,7 +411,6 @@ a#btn1, a#btn2, a#btn3 {
 
 .partner1, .partner2, .partner3 {
   color: #FB0E0E;
-  font-weight: bold;
   font-size: 22px;
 }
 
@@ -523,6 +532,9 @@ a#btn1, a#btn2, a#btn3 {
   iframe {
     width: calc(100% - 1px);
   }
+  .contactPic {
+    width: 13em;
+  }
 }
 
 .fb-page {
@@ -592,13 +604,13 @@ a#btn2.btn.btn-primary:active {
 }
 
 h1.heading {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 42px;
   font-weight: bold;
 }
 
 h2.heading {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 36px;
   font-weight: bold;
 }
@@ -606,7 +618,7 @@ h2.heading {
 
 h3.heading {
   font-weight: bold;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 36px;
 }
 
@@ -627,7 +639,7 @@ padding: 0; }
 }
 
 #rainbow {
-  background: url(/sacikozmetika/images/DogKartel1.png);
+  background: url('/images/DogKartel1.png');
   background-size: contain; 
   background-repeat: no-repeat; 
   background-position: center;
@@ -637,7 +649,7 @@ padding: 0; }
 }
 
 #rainbow:hover {
-  background: url(/sacikozmetika/images/DogKartel2.png);
+  background: url('/images/DogKartel2.png');
   background-size: contain; 
   background-repeat: no-repeat; 
   background-position: center;
@@ -683,7 +695,7 @@ body {
   color: black;
   font-weight: normal;
   font-size: 1.4rem;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
   background: rgb(23,18,246);
   background: linear-gradient(90deg, rgba(23,18,246,1) 0%, rgba(251,14,14,1) 46%, rgba(255,231,19,1) 100%);}
 
@@ -725,18 +737,18 @@ h5 {
 
 p {
   color: #1d1d1d;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 @media (max-width: 800px) {
   p {
-    font-size: 14px;
+    font-size: 17px;
   }
 }
 
 
 .serif {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
 }
 
 .position-relative {
@@ -1030,10 +1042,9 @@ p.footerP {
   padding: 10px 5px;
 }
 .site-navbar .site-navigation .site-menu > li > a {
-  padding: 7px;
+  padding: 5px;
   color: white;
   font-size: 20px;
-  font-weight: bold;
   text-decoration: none !important;
 }
 .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -1595,7 +1606,7 @@ p.footerP {
 
 
 .heading {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 20px;
@@ -2000,3 +2011,9 @@ p.footerP {
 .slide-one-item .owl-dots .owl-dot.active > span {
   background: #1c63fb;
 }
+
+360
+320
+
+411
+375
